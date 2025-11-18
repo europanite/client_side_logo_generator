@@ -1,11 +1,11 @@
-# [Frontend Metro Template](https://github.com/europanite/frontend_metro_template "Frontend Metro Template")
+# [Client Side Logo Generator](https://github.com/europanite/client_side_logo_generator "Client Side Logo Generator")
 
-A Client Side Metro Template.
-
----
+!["web_ui"](./assets/images/web_ui.png)
 
 ##  🚀 PlayGround
- [Frontend Metro Template](https://europanite.github.io/frontend_metro_template/)
+ [Client Side Logo Generator](https://europanite.github.io/client_side_logo_generator/)
+
+A Client Side Logo Generator.
 
 ---
 
