@@ -1,5 +1,7 @@
 # [Client Side Logo Generator](https://github.com/europanite/client_side_logo_generator "Client Side Logo Generator")
 
+[![GitHub Pages](https://github.com/europanite/client_side_logo_generator/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/europanite/client_side_logo_generator/actions/workflows/deploy-pages.yml)
+
 !["web_ui"](./assets/images/web_ui.png)
 
 ##  🚀 PlayGround
