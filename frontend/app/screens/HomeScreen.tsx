@@ -8,6 +8,8 @@ import {
   ScrollView,
   StyleSheet,
   useWindowDimensions,
+  TouchableOpacity,
+  Linking
 } from "react-native";
 
 type ColorTheme = {
@@ -113,6 +115,8 @@ export default function HomeScreen() {
   const tagBackground = isInverted ? theme.background : theme.tagBackground;
   const tagTextColor = isInverted ? theme.mainPalette[0] : theme.tagText;
 
+  const REPO_URL = "https://github.com/europanite/client_side_logo_generator";
+
   return (
     <ScrollView
       contentContainerStyle={[
@@ -120,6 +124,9 @@ export default function HomeScreen() {
         { paddingHorizontal: isNarrow ? 16 : 24 },
       ]}
     >
+      <TouchableOpacity onPress={() => Linking.openURL(REPO_URL)}>
+        <Text style={styles.title}>Clock</Text>
+      </TouchableOpacity>
       <View
         style={[
           styles.previewOuter,
@@ -248,6 +255,14 @@ const styles = StyleSheet.create({
     paddingTop: 24,
     paddingBottom: 32,
     gap: 24,
+  },
+  title: {
+    fontSize: 32,
+    letterSpacing: 2,
+    textTransform: "uppercase",
+    color: "#94A3B8",
+    marginBottom: 8,
+    textDecorationLine: "underline",
   },
   previewOuter: {
     borderRadius: 24,
