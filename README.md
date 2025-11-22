@@ -6,8 +6,7 @@
 
 !["web_ui"](./assets/images/web_ui.png)
 
-##  🚀 PlayGround
- [Client Side Logo Generator](https://europanite.github.io/client_side_logo_generator/)
+ [PlayGround](https://europanite.github.io/client_side_logo_generator/)
 
 A Client Side Logo Generator.
 
