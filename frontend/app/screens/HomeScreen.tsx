@@ -125,7 +125,7 @@ export default function HomeScreen() {
       ]}
     >
       <TouchableOpacity onPress={() => Linking.openURL(REPO_URL)}>
-        <Text style={styles.title}>Clock</Text>
+        <Text style={styles.title}>Logo Generator</Text>
       </TouchableOpacity>
       <View
         style={[
