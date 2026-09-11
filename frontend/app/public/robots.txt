@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://europanite.github.io/logo_generator/sitemap.xml
